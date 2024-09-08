@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    background-color: green;
+    color: white;
+    justify-content: space-around;
+    border-end-start-radius: 50px;
+    border-end-end-radius: 50px;
+
+}
+header img{
+    margin: 20px;
+}
+header h1{
+    margin: 20px;
+    margin-inline: 300px;
+}
+.texto-inicial{
+    border-radius: 50px;
+    width: 900px;
+    margin: 20px auto;
+    background: linear-gradient(blue, black);
+    color: white;
+}
+p{
+    font-size: 20px;
+    margin: 50px;
+}
+.perguntas{
+    text-align: center;
+    margin: 20px auto;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background: green;
+}
